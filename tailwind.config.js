@@ -29,8 +29,13 @@ module.exports = {
                 custom: '62.5rem',
             },
             spacing:{
+                5: '1.25rem',
+                6 : '3rem',
+                11 : '2.75rem',
+                44: '11rem',
                 70: '17.5rem',
-                175: '43.75rem'
+                175: '43.75rem',
+
             },
             fontFamily: {
                 sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
@@ -38,5 +43,5 @@ module.exports = {
         },
     },
 
-    plugins: [require('@tailwindcss/forms')],
+    plugins: [require('@tailwindcss/forms'),require('@tailwindcss/line-clamp')],
 };
