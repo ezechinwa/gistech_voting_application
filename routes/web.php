@@ -18,4 +18,6 @@ Route::get('/', function () {
 });
 
 
+Route::view('/idea','show');
+
 require __DIR__.'/auth.php';

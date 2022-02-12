@@ -32,8 +32,8 @@
 
 
 
-    <div class="ideas-container space-y-6 my-6">
-           <div class="idea-container flex bg-white rounded-xl hover:shadow-md transition duration-150 ease-in ">
+    <div class="ideas-container space-y-6 my-6  ">
+           <div class="idea-container flex bg-white rounded-xl hover:shadow-md transition duration-150 ease-in  py-6 px-3 ">
 
                <div class="idea-left-title flex flex-col items-center justify-around space-y-6 m-4 py-3  ml-5  ">
                    <div class="flex flex-col    items-center ">
@@ -43,14 +43,19 @@
                    <button class="button   space-x-4 bg-gray-100 rounded-xl p-2  border-gray-200  hover:border-gray-400 hover:bg-blue-hover hover:text-white transition duration-150 ease-in">VOTE</button>
                </div>
 
-               <div class="vertical-border  border border-gray-100 ml-1"></div>
+               <div class="vertical-border  border border-gray-100 ml-0"></div>
 
 
-               <div class="idea-right-content flex mx-4 my-4 space-x-2">
-                   <img class="w-6 h-6 rounded-xl" src="https://i.pravatar.cc/300" alt="avater">
-                   <div class="flex flex-col space-y-2 justify-around">
+               <div class="idea-right-content flex mx-4 my-4 space-x-4 w-full ">
+
+                   <div class="flex-none">
+                       <a href="#"> <img class="w-20 h-20 rounded-xl" src="https://i.pravatar.cc/300" alt="avater">  </a>
+
+                   </div>
+
+                   <div class="flex flex-col space-y-2 justify-around flex-1 space-y-6">
                        <h5 class="font-bold">Lorem ipsum dolor sit amet, consectetur eritatis, voluptate! </h5>
-                       <p class="text-gray-400 line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae culpa distinctio, dolore est eum explicabo hic labore laborum natus officia placeat praesentium provident quas quod rerum sed unde veniam voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea in inventore iste laboriosam tenetur? At consequuntur culpa cum debitis, distinctio est, ipsa iure nostrum perferendis perspiciatis rerum sed veritatis vitae.</p>
+                       <p class="text-gray-400 line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus assumenda corporis cum cumque error nam optio placeat, reprehenderit rerum similique suscipit tenetur. Alias aliquid eveniet nam, non placeat tenetur.</p>
 
                        <div class="flex items-center justify-between mt-6">
                            <div class="flex items-center text-xs text-gray-400 font-semibold space-x-2">
@@ -63,11 +68,11 @@
 
                            <div class="flex space-x-2">
                                <button class="button bg-gray-100 rounded-full text-xs px-6 ml-2 font-bold  border-gray-200  hover:border-gray-400 hover:bg-blue-hover hover:text-white  transition duration-150 ease-in">OPEN</button>
-                               <button class="relative button bg-gray-100 text-gray-400 rounded-full text-xs px-2 font-bold  border-gray-200  hover:border-gray-400 hover:bg-blue-hover hover:text-white  transition duration-150 ease-in">
+                               <button class="relative button bg-gray-100 text-gray-400 rounded-full text-xs px-2 font-bold border-2 border-gray-200  hover:border-gray-400 hover:bg-blue-hover hover:text-white  transition duration-150 ease-in">
                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path></svg>
                                     <ul class="absolute w-44 ml-8 text-left font-semibold bg-white shadow-lg rounded-xl py-3">
-                                        <li><a href="#" class="hover:bg-gray-100 block text-black hover:bg-blue-hover hover:text-white transition  duration-150 ease-in px-5 py-3">Mark as spam</a></li>
-                                        <li><a href="#" class="hover:bg-gray-100 block text-black hover:bg-blue-hover hover:text-white transition  duration-150 ease-in px-5 py-3">Delete Post</a></li>
+                                        <li><a href="#" class="hover:bg-blue-hover block text-black hover:text-white transition  duration-150 ease-in px-5 py-3">Mark as spam</a></li>
+                                        <li><a href="#" class="hover:bg-blue-hover block text-black  hover:text-white transition  duration-150 ease-in px-5 py-3">Delete Post</a></li>
                                     </ul>
 
                                </button>
